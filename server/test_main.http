@@ -1,0 +1,29 @@
+### Valid Order
+POST http://127.0.0.1:8000/order?total=1242.342
+Content-Type: application/json
+
+### Invalid Order
+POST http://127.0.0.1:8000/order?total=323st234
+Content-Type: application/json
+
+
+### Pizzerias
+GET http://127.0.0.1:8000/pizzerias
+Content-Type: application/json
+
+### Pizzeria by ID
+GET http://127.0.0.1:8000/pizzerias/1
+Content-Type: application/json
+
+
+### Pizzas
+GET http://127.0.0.1:8000/pizzas/3
+Content-Type: application/json
+
+### Pizza by ID
+GET http://127.0.0.1:8000/pizzas/3/1
+Content-Type: application/json
+
+### Settings
+GET http://127.0.0.1:8000/settings
+Content-Type: application/json
