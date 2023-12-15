@@ -1,4 +1,4 @@
-import {makeRequest} from "./api";
+import {makeRequest} from "./api.service";
 import { mapSettings } from '@/mappers';
 
 export const getSettingsRequest = () => {

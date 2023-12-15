@@ -57,11 +57,11 @@ export const PizzeriaPage: FC<Props> = ({
       { loading ? (
         <CircularProgress/>
       ) : (
-        <Grid container gap={2} flexDirection="column">
+        <Grid container gap={2} flexDirection="column" minHeight="100%">
           {
             pizzas.length === 0 && (
-              <Grid container flexGrow={ 1 } alignItems="center">
-                <Typography align="center" width="100%" height="100%" variant="h6" component="div">
+              <Grid container height="100%" alignItems="center">
+                <Typography align="center" width="100%" variant="h6" component="div">
                   No pizzas found yet, please check back later ;)
                   <br/>
                   Go to the <Link to={ AppRoute.Pizzerias }>Pizzerias</Link> to find another pizzeria ;)

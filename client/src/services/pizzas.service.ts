@@ -1,4 +1,4 @@
-import { makeRequest } from './api';
+import { makeRequest } from './api.service';
 import { mapPizza, mapPizzas } from '@/mappers';
 import { PizzaDtoType } from '@/dtos';
 
