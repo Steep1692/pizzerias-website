@@ -6,5 +6,6 @@
 <img width="1276" alt="Screenshot 2023-12-15 at 12 58 26" src="https://github.com/Steep1692/pizzerias-website/assets/46420479/870a3064-fe04-4fc1-afb5-4f891a489018">
 
 #### 🪛 Technologies:
-FrontEnd: React, Typescript, Material UI
-BackEnd: Python, FastAPI
+**FrontEnd:** React, Typescript, Material UI
+</br>
+**BackEnd:** Python, FastAPI
