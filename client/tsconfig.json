@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/components": ["src/components/index"],
+      "@/constants": ["src/constants/index"],
+      "@/pages": ["src/pages/index"],
+      "@/partials": ["src/partials/index"],
+      "@/services": ["src/services/index"],
+      "@/mappers": ["src/mappers/index"],
+      "@/types": ["src/types/index"],
+      "@/utils": ["src/utils/index"],
+      "@/themes": ["src/themes/index"],
+      "@/dtos": ["src/dtos/index"]
+    }
+  },
+  "include": ["src"]
+}

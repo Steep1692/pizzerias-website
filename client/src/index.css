@@ -1,0 +1,47 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#root {
+    min-height: 100vh;
+}
+
+html {
+    position: relative;
+    overflow-y: scroll;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+}
+
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .04;
+    z-index: -1;
+    background-image: url("/public/assets/bg.jpg");
+    background-repeat: repeat;
+}
+
+html::-webkit-scrollbar {
+    width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: #ff1b1b;
+}
